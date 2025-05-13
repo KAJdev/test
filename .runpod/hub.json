@@ -12,7 +12,7 @@
         "name": "Preset 1",
         "defaults": {
           "STATIC_1": "value_1",
-          "STRING_1": "default value 1",
+          "STRING_1": "default value 1"
         }
       }
     ],
