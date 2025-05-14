@@ -1,3 +1,3 @@
-from python:latest
+FROM python:3.10
 
-CMD ['python3']
+CMD ['python3', '-m', 'http.server', '80']
