@@ -4,4 +4,4 @@ RUN pip3 install runpod
 
 COPY handler.py handler.py
 
-CMD ['python3', 'handler.py']
+CMD ["python3", "handler.py"]
