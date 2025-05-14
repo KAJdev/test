@@ -1,3 +1,7 @@
 FROM python:3.10
 
-CMD ['python3', '-m', 'http.server', '80']
+RUN pip3 install runpod
+
+COPY handler.py handler.py
+
+CMD ['python3', 'handler.py']
